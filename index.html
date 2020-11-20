@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="stylesheet" href="app.css">
       <title>My Web Page</title>
    </head>
    <body>
-      <h1>Harry Potter <em>Fan Page</em></h1>>
-      <p>Here is the best site to learn all about Harry Potter fun facts!</p>
-      <ul>
-          <li>A wizard...</li>
-          <li>A boy</li>
-          <li>Below is an image</li>
-      </ul>
-      <img src="https://api.time.com/wp-content/uploads/2014/07/301386_full1.jpg?w=600&quality=85"
-      alt="Harry Potter"/>
-   </body>
+       <div>
+            <h1>Harry Potter <em>Fan Page</em></h1>>
+            <p>Here is the best site to learn all about Harry Potter fun facts!</p>
+            <ul>
+                <li>A wizard...</li>
+                <li>A boy</li>
+                <li>Below is an image</li>
+            </ul>
+            <img src="https://api.time.com/wp-content/uploads/2014/07/301386_full1.jpg?w=600&quality=85"
+            alt="Harry Potter"
+            class = "bordered"/>
+            <h2>Contact Form</h2>
+            <form action="">
+                <label for="email" name="email">Email</label> <!Notice that the "email" id is specific and ties together the label and input in this case>
+                <input type="text" id="email" name="email"/>
+                <label for="message">Message</label>
+                <textarea rows="5"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </body>
 </html>
